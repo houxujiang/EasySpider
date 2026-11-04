@@ -1,8 +1,6 @@
 name: Track upstream branches
 
 on:
-  schedule:
-    - cron: '41 * * * *'
   workflow_dispatch:
     inputs:
       mode:
